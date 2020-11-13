@@ -1,0 +1,14 @@
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\bin\Debug\netstandard2.0\QuizApp.deps.json
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\bin\Debug\netstandard2.0\QuizApp.dll
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\bin\Debug\netstandard2.0\ref\QuizApp.dll
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\bin\Debug\netstandard2.0\QuizApp.pdb
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\QuizApp.csprojAssemblyReference.cache
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\QuizApp.AssemblyInfoInputs.cache
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\QuizApp.AssemblyInfo.cs
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\QuizApp.csproj.CoreCompileInputs.cache
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\QuizApp.dll
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\ref\QuizApp.dll
+C:\Users\Theresa\source\repos\QuizApp\QuizApp\obj\Debug\netstandard2.0\QuizApp.pdb
