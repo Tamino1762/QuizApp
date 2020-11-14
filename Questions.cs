@@ -30,7 +30,7 @@ namespace QuizApp
                 break;
                
             }
-            return q + 1;
+            return q;
                 //check answer
                 //if answer is correct, add to score
                 //when questions are done, display score

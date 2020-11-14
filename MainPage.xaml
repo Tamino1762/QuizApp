@@ -30,8 +30,8 @@
 
         <!--buttons should be next to each other-->
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            <Button Text="True" Clicked="Handle_True" x:Name="trueButton" IsVisible="false" />
-            <Button Text="False" Clicked="Handle_False" x:Name="falseButton" IsVisible="false" />
+            <Button Text="True" Clicked="Handle_True" x:Name="trueButton" IsVisible="false" BackgroundColor="Green" FontAttributes="Bold" FontSize="24"/>
+            <Button Text="False" Clicked="Handle_False" x:Name="falseButton" IsVisible="false" BackgroundColor="Red" FontAttributes="Bold" FontSize="24" />
         </StackLayout>
         </StackLayout>
 
