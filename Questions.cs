@@ -21,15 +21,25 @@ namespace QuizApp
         {
             int score = 0;
             string q = "?";
+            //var arrayItem = "";
+
+            foreach(string item in questions)
+            {
+                q = item;
+                continue;
+                
+            }
 
             //get question - loop through questions, get answer
-            for (int i = 0; i < questions.Length; i++)
-            {
+            //for (int i = 0; i < questions.Length; i++)
+            //{
                 
-                q = questions[i];
-                break;
+            //    q = questions[i];
+            //    //break;
+            //    //continue;
+            //    string next = questions[i + 1];
                
-            }
+            //}
             return q;
                 //check answer
                 //if answer is correct, add to score
@@ -37,19 +47,5 @@ namespace QuizApp
         }
 
 
-
-        //public static string Questioner(string question)
-        //{
-        //    bool result;
-        //    for (int i = 0; i < questions.Length; i++)
-        //    {
-        //        if (questions[i].Equals(questions))
-        //        {
-        //            result = answers[i];
-        //            break;
-        //        }
-        //    }
-        //    return;
-        //}
     }
 }

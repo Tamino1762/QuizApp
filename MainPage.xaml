@@ -18,21 +18,34 @@
     </ContentPage.Resources>
 
     <StackLayout>
-        <Label Text="Music Theory Quiz" FontSize="36" TextColor="WhiteSmoke" BackgroundColor="Black"
+        <Label Text="🎶 Music Theory Quiz 🎶" FontSize="30" TextColor="WhiteSmoke" BackgroundColor="Black"
                Padding="10,10,10,10" HorizontalOptions="CenterAndExpand"/>
+        <Label/>
         <Label Text="Test your music theory knowledge!" 
                HorizontalOptions="{StaticResource horzOptions}"   
                FontSize="{StaticResource fontSize}"
+               Padding="3,3,3,3"
                TextColor="DarkGreen"/>
+              
+        <Label/>
         <Label x:Name="theQuestion" HorizontalOptions="{StaticResource horzOptions}" FontSize="{StaticResource fontSize}"/>
-        <Button Text="Start" Clicked="Handle_Start" x:Name="start"/>
+        <Label x:Name="finalScore" HorizontalOptions="{StaticResource horzOptions}" FontSize="{StaticResource fontSize}"/>
+        <Label/>
+        <Label x:Name="geniusLevel" HorizontalOptions="{StaticResource horzOptions}" FontSize="{StaticResource fontSize}"/>
+        <Label/>
+        <Button Text="Start" Clicked="Handle_Start" x:Name="start" CornerRadius="5" BackgroundColor="CadetBlue"
+                FontAttributes="Bold" FontSize="24"  HorizontalOptions="Center"/>
+        <Button Text="Try Again?" Clicked="Handle_Again" x:Name="again" IsVisible="false" CornerRadius="5" BackgroundColor="CadetBlue"
+                FontAttributes="Bold" FontSize="24"  HorizontalOptions="Center" />
 
 
         <!--buttons should be next to each other-->
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            <Button Text="True" Clicked="Handle_True" x:Name="trueButton" IsVisible="false" BackgroundColor="Green" FontAttributes="Bold" FontSize="24"/>
-            <Button Text="False" Clicked="Handle_False" x:Name="falseButton" IsVisible="false" BackgroundColor="Red" FontAttributes="Bold" FontSize="24" />
+            <Button Text="True" Clicked="Handle_True" x:Name="trueButton" IsVisible="false" BackgroundColor="Green" 
+                    FontAttributes="Bold" FontSize="24" CornerRadius="5" VerticalOptions="Center" TextColor="AntiqueWhite"/>
+            <Button Text="False" Clicked="Handle_False" x:Name="falseButton" IsVisible="false" BackgroundColor="Red"
+                    FontAttributes="Bold" FontSize="24" CornerRadius="5" VerticalOptions="Center"/>
         </StackLayout>
-        </StackLayout>
+    </StackLayout>
 
 </ContentPage>
